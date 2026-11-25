@@ -65,5 +65,8 @@ echo "Start it:"
 echo "  cd \"$DEST\" && sh login-item.sh install     # runs in the background, starts at login"
 echo "  (or: cd \"$DEST\" && sh run.sh)"
 echo
+echo "Next time, from any Terminal:  sh \"$DEST/start.sh\""
+echo "  (sh \"$DEST/start.sh\" --shortcut puts a double-click Big Rocks First on the Desktop)"
+echo
 echo "Already had it running from another folder? 'sh login-item.sh install' here re-points the login item."
 echo "Stop any Terminal copy first (Ctrl-C). Your todos and settings carry over."
